@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geyometry genius</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="border-4 p-4 bg-gray-200">
+        <p class="text-3xl font-bold">Interactive</p>
+        <p class="text-2xl font-semibold">Geometry Geniuys</p>
+    </header>
+    <main class="flex gap-9">
+        <div class="flex-1 gap-3 grid md:grid-cols-2 lg:grid-cols-3 border-2">
+            <div class='text-center border-2 p-4 flex flex-col justify-center'>
+                <div class="flex justify-center">
+                    <img src="./images/triangle.png" alt="">
+                </div>
+                <div>
+                    <p>Triangle</p>
+                    <p>Area(A)=0.5cm * b * h</p>
+                    <input id="t-int1" class="border-2 w-20" type="text">cm
+                    <input id="t-int2" class="border-2 w-20" type="text">cm
+                </div>
+                <button id="tri-btn" class="bg-blue-800 rounded-md text-white p-2 mt-3">Calculate</button>
+
+            </div>
+            <div class='text-center border-2 p-4 flex flex-col justify-center'>
+                <div class="flex justify-center">
+                    <img src="./images/rectangle.png" alt="">
+                </div>
+                <div>
+                    <p>Triangle</p>
+                    <p>Area (A) = w * I</p>
+                    <input id="b-1" class="border-2 w-20" type="text">cm
+                    <input id="b-2" class="border-2 w-20" type="text">cm
+                </div>
+                <button id="b-btn" class="bg-blue-800 rounded-md text-white p-2 mt-3">Calculate</button>
+            </div>
+            <div class='text-center border-2 p-4 flex flex-col justify-center'>
+                <div class="flex justify-center">
+                    <img src="./images/triangle.png" alt="">
+                </div>
+                <div>
+                    <p>Triangle</p>
+                    <p>Area(A)=0.5cm * b * h</p>
+                    <input class="border-2 w-20" type="text">cm
+                    <input class="border-2 w-20" type="text">cm
+                </div>
+                <button class="bg-blue-800 rounded-md text-white p-2 mt-3">Calculate</button>
+            </div>
+            <div class='text-center border-2 p-4 flex flex-col justify-center'>
+                <div class="flex justify-center">
+                    <img src="./images/triangle.png" alt="">
+                </div>
+                <div>
+                    <p>Triangle</p>
+                    <p>Area(A)=0.5cm * b * h</p>
+                    <input class="border-2 w-20" type="text">cm
+                    <input class="border-2 w-20" type="text">cm
+                </div>
+                <button class="bg-blue-800  rounded-md text-white p-2 mt-3">Calculate</button>
+            </div>
+        </div>
+        <div id="calculator" class="border-2 p-5 w-56">
+            <p class="font-bold text-2xl">Area calculator</p>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
